@@ -1,0 +1,153 @@
+body{
+    background-color: #FBE7C6;
+    margin: 0px;
+}
+
+/* header */
+.container{
+    background-color: #FFAEBC;
+    height: 7vmax;
+}
+img{
+    height: 3vmax;
+    width: 3vmax;;
+}
+#flexCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2vmax;
+}
+#leftHead{
+display: flex;
+justify-content: space-around;
+width: 13vmax;
+margin: 2vmax;
+line-height: 2.9vmax;
+}
+#rightHead{
+    margin: 1vmax 1.8vmax;
+}
+#rightHead>button{
+    border-radius:2vmax;
+    height: 3vmax;
+    width: 6vmax;
+    color: black;
+    background-color: #FBE7C6;
+}
+.mid, .generate{
+    background-color: #e3dcdc78;
+    height: auto;
+    width: 60vmax;
+    margin: 2vmax auto;
+    border-radius: 2vmax;
+    box-shadow: 0vmax 0vmax 2.1vmax black;
+    
+}
+h1{
+    margin: 1vmax 1vmax;
+    text-decoration: underline;
+    display: inline-block;
+    width: 25vmax;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    width: 47vmax;
+    height: 38vmax;
+    margin: auto;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 1vmax;
+}
+ #form>div{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: .4vmax;
+    
+}
+input{
+    border-radius: .7vmax;
+    height: 2vmax;
+}
+#desc{
+    height: 8vmax;
+}
+.short{
+    flex-basis: 48% !important;
+}
+#add{
+    
+    display: inline-block;
+}
+#add>button{
+    width: 6vmax;
+    height: 3vmax;
+    background-color: #98D7C2;
+    border-radius: 1vmax;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+}
+#delete,#submit{
+    display: inline-block;
+}
+#delete>button{
+    width: 6vmax;
+    height: 3vmax;
+    border-radius: 1vmax;
+    background-color: coral;
+    border-radius: 1vmax;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+   
+}
+#submit>button{
+    width: 6vmax;
+    height: 3vmax;
+    border-radius: 1vmax;
+    background-color: rgb(155, 247, 216);
+    border-radius: 1vmax;
+    margin-left: 18vmax;
+    margin-top: 1vmax;
+   
+}
+#button{
+    margin-left: 70%;
+}
+#mainform{
+    height: auto;
+}
+#submitcv{
+    width: 15vmax;
+    height: 3vmax;
+    border-radius: 1vmax;
+    margin: 1vmax auto;
+    color: white;
+    background-color: #167D7F;
+}
+
+.infotable{
+    text-align: center;
+}
+.generate{
+    padding: 1vmax;
+   
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.edutable, .exptable{
+     width: 40vmax;
+     margin: auto;
+     padding: 2vmax;
+     
+}
+
+.hide{
+    display: none !important;
+}
