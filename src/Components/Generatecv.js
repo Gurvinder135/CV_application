@@ -5,7 +5,7 @@ const GenerateCv=({infor,exp,edu})=>{
         <div className="generate hide" >
             
             <div className="infotable">
-                    <div>{infor.fn}, {infor.ln}</div>
+                    <div style={{fontWeight:"bold"}}>{infor.fn}, {infor.ln}</div>
                     <div>{infor.phone}</div>
                     <div>{infor.email}</div>
                     <div>{infor.address}</div>
@@ -25,6 +25,7 @@ const GenerateCv=({infor,exp,edu})=>{
                    <div>{a.location}</div>
                    </div>
                     <div>{a.subject}</div>
+                    <hr></hr>
                </div>
                )})}
                
